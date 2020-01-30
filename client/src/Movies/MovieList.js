@@ -17,8 +17,6 @@ export default class MovieList extends Component {
       .catch(err => console.log(err.response));
   }
 
-  
-
   render() {
     return (
       <div className="movie-list">
