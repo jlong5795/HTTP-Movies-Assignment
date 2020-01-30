@@ -19,8 +19,6 @@ const AddMovie = props => {
         })
     }
 
-
-
     const starsArrayHandler = (e) => {
         setMovie({
         ...movie,

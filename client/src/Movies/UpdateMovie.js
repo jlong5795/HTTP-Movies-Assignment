@@ -88,5 +88,5 @@ const UpdateMovie = props => {
 
     )
 };
-
+ 
 export default UpdateMovie;
