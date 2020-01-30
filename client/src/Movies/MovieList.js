@@ -17,6 +17,8 @@ export default class MovieList extends Component {
       .catch(err => console.log(err.response));
   }
 
+  
+
   render() {
     return (
       <div className="movie-list">
@@ -31,7 +33,7 @@ export default class MovieList extends Component {
 function MovieDetails({ movie }) {
   return (
     <Link to={`/movies/${movie.id}`}>
-      <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
     </Link>
   );
 }
